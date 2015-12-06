@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html ng-app="modalApp">
+<head>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.8/angular.min.js"></script>
+    <script src="scripts/services/angular-modal-service.js"></script>
+    <script src="scripts/controllers/controllers.js"></script>
+</head>
+<body ng-controller="SampleController">   
+    <a href="" class="btn btn-default btn-lg " ng-click="showAModal()">Show Yes No</a>
+    <p>{{message}}</p>
+</body>
+</html>
